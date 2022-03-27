@@ -1,0 +1,44 @@
+.body{
+    background-color: rgba(5, 50, 87, 0.76);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 270px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    box-shadow: 0 0 30px #db1010;
+    background-color: aliceblue;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.card-title{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+}
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+img{
+    border-bottom: 2px solid;
+    padding-left: 0;
+    
+}
+.card-header{
+    display: inline;
+}
